@@ -6,6 +6,9 @@ import DynamicPie from "../Pages/DynamicPie/DynamicPie";
 import DevExtremeStack from "../Pages/DevExtremeStackedBar/DevExtremeStack";
 // import DevExtremeDataGrid from "../Pages/DevExtremeDataGrid/DevExtremeDataGrid";
 import DevExtremeScatterChart from "../Pages/DevExtremeScatterChart/DevExtemeScatter";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export const adminRoutes = [
   {
